@@ -1,0 +1,11 @@
+{
+  "name": "cat-status",
+  "version": "1.0.0",
+  "description": "Giving you cat photos from http.cat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Rizzo",
+  "license": "ISC"
+}
