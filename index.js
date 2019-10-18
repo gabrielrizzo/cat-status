@@ -28,4 +28,3 @@ module.exports = {
 }
 
 const foo = animalStatus().catStatus('500').then((response) => console.log(response))
-console.log(foo)
