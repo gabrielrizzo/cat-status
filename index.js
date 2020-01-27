@@ -9,7 +9,7 @@ const animalStatus = () => {
                 const response = await catDownload.get(`/${status}.jpg`)
                 // console.log(response.data)
                 // fs.writeFileSync('./catpicture.jpg', response.data)
-                return { 
+                return {
                     image: response.data,
                     mimeType: 'jpg'
                 }
@@ -26,5 +26,3 @@ const animalStatus = () => {
 module.exports = {
     animalStatus
 }
-
-const foo = animalStatus().catStatus('500').then((response) => console.log(response))
