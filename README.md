@@ -5,7 +5,7 @@ To use it, clone and do a `npm link` in directory!
 
 
 ## Example
-const animalStatus = require('cat-status')
+const { catStatus } = require('cat-status')
 
-const photo = animalStatus.catStatus(requestHttpStatusCode)
+const photo = catStatus(requestHttpStatusCode)
 // returns { image: ArrayBuffer, mimeType: 'jpg' }
