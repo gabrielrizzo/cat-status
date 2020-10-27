@@ -11,5 +11,5 @@ const photo = catStatus(requestHttpStatusCode)
 // returns { image: ArrayBuffer, mimeType: 'jpg' }
 
 
-## Example Image
+## Image
 ![](https://http.cat/429.jpg)
